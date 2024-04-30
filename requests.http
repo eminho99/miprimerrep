@@ -1,0 +1,29 @@
+###
+POST http://localhost:9000/api/users HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "cole palmer",
+    "age": "20",
+    "email": "coldpalmer123@gmail.com"
+}
+
+###
+GET http://localhost:9000/api/users HTTP/1.1
+
+###
+GET http://localhost:9000/api/users/662ee6c93e73d6be5f18f575 HTTP/1.1
+
+###
+PUT http://localhost:9000/api/users/662ee6c93e73d6be5f18f575 HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "cole palmer",
+    "age": "20",
+    "email": "coldpalmer123@gmail.com"
+}
+
+###
+DELETE http://localhost:9000/api/users/662ee6c93e73d6be5f18f575 HTTP/1.1
+
